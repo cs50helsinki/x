@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width"><meta property="og:description" content="">
+
+        <meta property="og:image" content=""><meta property="og:title" content="CS50 Tools">
+
+        <link href="/favicon.ico?1666864180" rel="icon">
+
+        <!-- https://fonts.google.com/specimen/PT+Sans?query=PT+Sans&selection.family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <!-- https://getbootstrap.com/docs/ -->
+        <script src="/assets/jquery/dist/jquery.min.js?1666864180"></script>
+        <script src="/assets/bootstrap/dist/js/bootstrap.bundle.min.js?1666864180"></script>
+
+        <!-- https://bootstrap-table.com/docs/getting-started/introduction/ -->
+        <link href="/assets/bootstrap-table/dist/bootstrap-table.min.css?1666864180" rel="stylesheet">
+        <script src="/assets/bootstrap-table/dist/bootstrap-table.min.js?1666864180"></script>
+        <script src="/assets/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.min.js?1666864180"></script>
+
+        <!-- https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use -->
+        <link href="/assets/@fortawesome/fontawesome-free/css/all.min.css?1666864180" rel="stylesheet">
+
+        <!-- https://moment.github.io/luxon/ -->
+        <script src="/assets/luxon.min.js?1666864180"></script>
+
+        <!-- http://docs.mathjax.org/ -->
+        <!-- https://www.jsdelivr.com/package/npm/mathjax?path=es5 -->
+        <!-- http://docs.mathjax.org/en/latest/options/output/chtml.html?highlight=displayAlign#the-configuration-block -->
+        <script>
+            MathJax = {
+               chtml: {
+                    displayAlign: "left"
+                }
+            };
+        </script>
+        <script crossorigin="anonymous" integrity="sha256-z47L98YXVhVIaY0uyDzt675P5Ea+w3RsPh9VD5NuoTY=" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-chtml.js"></script>
+
+        <!-- https://github.com/verlok/vanilla-lazyload -->
+        <!-- https://www.jsdelivr.com/package/npm/vanilla-lazyload -->
+        <!-- https://www.jsdelivr.com/package/npm/intersection-observer -->
+        <script crossorigin="anonymous" integrity="sha256-v3MXDIY3uujDKO0h37NoglNDp6uwq+4EmM0EkH99Uuo=" src="https://cdn.jsdelivr.net/npm/intersection-observer@0.12.2/intersection-observer.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-sO6HPavoXo796Zp/bq6ts4qHOoEqfydXEXSX5NojP48=" src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+
+        <!-- https://github.com/davidjbradshaw/iframe-resizer -->
+        <!-- https://www.jsdelivr.com/package/npm/iframe-resizer?path=js -->
+        <script crossorigin="anonymous" integrity="sha256-oBWDuxBG1C5U0t3xjmZZ1UAlt9sKeSRk26KiVy4jxpY=" src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.min.js"></script>
+
+        <!-- https://github.com/scratchblocks/scratchblocks/releases -->
+        <script src="/assets/scratchblocks.min.js?1666864180"></script>
+
+        <!-- https://mermaid-js.github.io/ -->
+        <!-- https://www.jsdelivr.com/package/npm/mermaid -->
+        <script crossorigin="anonymous" integrity="sha256-ZfzwelSToHk5YAcr9wbXAmWgyn9Jyq08fSLrLhZE89w=" src="https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js"></script>
+
+        
+
+        <link href="/assets/page.css?1666864180" rel="stylesheet">
+        <script src="/assets/jekyll-theme-cs50.js?1666864180"></script>
+
+        <script>
+            window.CS50 = {
+                local: null,
+                locale: null,
+                tz: null
+            };
+        </script>
+
+        <title>CS50 Tools</title>
+
+
+    </head>
+
+    <body class="invisible">
+
+        
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <aside class="col-md">
+ 
+                    <header><h1 data-id="cs50-ap"><a href="/">CS50 AP</a></h1>
+
+<p>Harvard University<br />
+2019–2020</p></header>
+
+                    
+
+                    <button aria-controls="nav" aria-expanded="false" class="btn btn-sm collapsed d-md-none" data-bs-target="aside > nav" data-bs-toggle="collapse">
+                        Menu
+                    </button>
+
+                    <nav class="collapse d-md-block" id="nav"><hr />
+
+<ul>
+  <li><a href="https://ide.cs50.io/">CS50 IDE</a></li>
+  <li><a href="https://man.cs50.io/">CS50 Programmer’s Manual</a></li>
+</ul>
+
+<hr />
+
+<ul>
+  <li><a href="https://cs50.statuspage.io/">Status Page</a></li>
+  <li><a href="https://cs50.readthedocs.io/style/c/">Style Guide</a></li>
+</ul>
+
+<hr />
+
+<ul>
+  <li><a href="/curriculum"><strong>Curriculum</strong></a></li>
+  <li><a href="/tools">Tools</a></li>
+  <li><a href="/syllabus">Syllabus</a></li>
+</ul></nav>
+
+                    <footer></footer>
+
+                </aside>
+
+                <main class="col-md">
+
+                    <h1 id="cs50-tools">CS50 Tools</h1>
+
+<iframe title="Tools" src="/assets/pdfs/tools.pdf" width="838" height="1130" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+
+<hr />
+
+<h2 id="cs50-sandbox">CS50 Sandbox</h2>
+
+<p>Temporary programming environments for students and teachers
+<a href="https://sandbox.cs50.io/">https://sandbox.cs50.io/</a></p>
+
+<h2 id="cs50-ide">CS50 IDE</h2>
+
+<p>CS50 IDE is a cloud-based Integrated Development Environment powered by AWS Cloud9 that features a cloud-based Ubuntu environment. Since it’s cloud-based, you can continue working on your problem sets even if you use a different computer!</p>
+
+<p>You can also share your workspace with others. Visit <a href="https://cs50.readthedocs.io/ide/online/#sharing-your-workspace">https://cs50.readthedocs.io/ide/online/#sharing-your-workspace</a> for more information.</p>
+
+<h2 id="command-line-tools">Command-Line Tools</h2>
+
+<h4 id="help50"><code class="language-plaintext highlighter-rouge">help50</code></h4>
+
+<p>Prints less arcane compiler and Valgrind messages<br />
+Usage: <code class="language-plaintext highlighter-rouge">help50 ./program command line args</code> or<br />
+<code class="language-plaintext highlighter-rouge">help50 valgrind ./program command line args</code></p>
+
+<h4 id="debug50"><code class="language-plaintext highlighter-rouge">debug50</code></h4>
+
+<p>Runs a program step by step, line by line, to see what is happening<br />
+Usage: <code class="language-plaintext highlighter-rouge">debug50 ./program command line args</code></p>
+
+<h4 id="style50"><code class="language-plaintext highlighter-rouge">style50</code></h4>
+
+<p>Checks for alignment to the <a href="https://cs50.readthedocs.io/style/c/">CS50 style guide</a><br />
+Usage: <code class="language-plaintext highlighter-rouge">style50 program.c</code></p>
+
+<h4 id="check50"><code class="language-plaintext highlighter-rouge">check50</code></h4>
+
+<p>Checks for correctness using test cases<br />
+Usage: <code class="language-plaintext highlighter-rouge">check50 cs50/problems/2018/ap/problem_name</code></p>
+
+<h2 id="documentation">Documentation</h2>
+
+<p><a href="https://cs50.readthedocs.io/">https://cs50.readthedocs.io/</a></p>
+
+
+                </main>
+
+            </div>
+
+        </div>
+
+        
+ 
+        <script src="/assets/page.js?1666864180"></script>
+
+    </body>
+
+</html>
